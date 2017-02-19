@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmbeddedHelpers", "EmbeddedHelpers\EmbeddedHelpers.vcxproj", "{C0E99B24-407E-4151-AB60-81B88B4B5E0E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmbeddedHelpersTest", "EmbeddedHelpersTest\EmbeddedHelpersTest.vcxproj", "{10028084-4CB4-41FF-831B-9434A7089CD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{C0E99B24-407E-4151-AB60-81B88B4B5E0E}.Release|x64.Build.0 = Release|x64
 		{C0E99B24-407E-4151-AB60-81B88B4B5E0E}.Release|x86.ActiveCfg = Release|Win32
 		{C0E99B24-407E-4151-AB60-81B88B4B5E0E}.Release|x86.Build.0 = Release|Win32
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Debug|x64.ActiveCfg = Debug|x64
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Debug|x64.Build.0 = Debug|x64
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Debug|x86.ActiveCfg = Debug|Win32
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Debug|x86.Build.0 = Debug|Win32
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Release|x64.ActiveCfg = Release|x64
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Release|x64.Build.0 = Release|x64
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Release|x86.ActiveCfg = Release|Win32
+		{10028084-4CB4-41FF-831B-9434A7089CD9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
