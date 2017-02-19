@@ -24,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BitField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="MinimumType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
