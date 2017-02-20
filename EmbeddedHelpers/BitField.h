@@ -6,6 +6,9 @@
 /// <remarks>
 /// BitField members should be defined within a union, which also contains an instance of the parent storage type.
 /// </remarks>
+/// <typeparam name="TData">The base type to use as a backing store for the underlying bits.  Must match the type used in the parent union. (E.g. std::uint8_t)</typeparam>
+/// <typeparam name="BitOffset">The starting index of the BitField's relevant bits.</typeparam>
+/// <typeparam name="BitLength">The total number of bits included in the BitField.</typeparam>
 template <typename TData, size_t BitOffset, size_t BitLength>
 class BitField
 {
