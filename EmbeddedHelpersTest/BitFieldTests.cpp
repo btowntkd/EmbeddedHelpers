@@ -10,6 +10,8 @@ namespace EmbeddedHelpersTest
 	{
 		union Register8
 		{
+			// DataType defines the backing store for the entire register
+			// (in this case, a single byte)
 			typedef std::uint8_t DataType;
 			DataType value;
 
@@ -22,6 +24,8 @@ namespace EmbeddedHelpersTest
 
 		union Register16
 		{
+			// DataType defines the backing store for the entire register
+			// (in this case, a 16-bit word)
 			typedef std::uint16_t DataType;
 			DataType value;
 
@@ -31,7 +35,7 @@ namespace EmbeddedHelpersTest
 			BitField<DataType, 10, 6> tenToFifteen;
 
 			BitField<DataType, 2, 7> overlap_twoToEight;
-			BitField<DataType, 2, 6> overlap_nineToFifteen;
+			BitField<DataType, 9, 6> overlap_nineToFifteen;
 		};
 
 		TEST_METHOD(MultipleBitFields_DefinedInUnion_DoesNotAffectSizeOfUnion)
